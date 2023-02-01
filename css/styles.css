@@ -115,6 +115,7 @@ hr {
 }
 .btn.btn-primary {
   background: #f07132;
+  margin-left: 10px;
 }
 .btn.btn-primary:hover,
 .btn.btn-primary:focus {
@@ -294,12 +295,14 @@ ul.nostyle i {
   color: #000;
 }
 #hero-banner {
-  background: #fffff2 url("../images/banner/bg1.jpeg") no-repeat 100% bottom;
+  background: #ffffff url("../images/banner/bg1.jpeg") no-repeat 100% bottom;
 }
 #hero-banner h2 {
-  margin-top: 180px;
+  margin-top: 160px;
   font-size: 39px;
   line-height: 49px;
+  background: rgba(255, 255, 255, 0.68);
+  padding: 10px;
   color: #fff;
 }
 #hero-banner.banner-inner h2 > span {
@@ -384,6 +387,12 @@ ul.nostyle i {
   bottom: 44px;
   left: 14px;
 }
+
+#hero-banner p {
+  background: rgba(255, 255, 255, 0.68);
+  padding: 10px;
+}
+
 #hero-banner h2,
 #hero-banner p {
   color: #07152d;
@@ -1021,6 +1030,14 @@ section#team:before {
   box-shadow: none;
   -webkit-box-shadow: none;
 }
+
+@media only screen and (max-width: 991px) {
+  .btn.btn-primary {
+    background: #f07132;
+    margin-left: 0px;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   #hero-banner h2 {
     margin-top: 280px;
