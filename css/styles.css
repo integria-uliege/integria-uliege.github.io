@@ -309,6 +309,11 @@ ul.nostyle i {
   margin-top: 10px;
 }
 
+#banner-text {
+  padding: 5%;
+  background-color: #fffff2ce;
+}
+
 #hero-text {
   padding: 50px 0;
   border-top: 1px solid #ffffff;
