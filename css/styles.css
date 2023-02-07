@@ -37,6 +37,15 @@ h6 {
 .small-margin-bottom {
   margin-bottom: 25px;
 }
+
+.small-margin-top {
+  margin-top: 25px;
+}
+
+.logo-img {
+  height: 125px;
+}
+
 /* End Custom  */
 a {
   color: #45aed6;
