@@ -1066,10 +1066,10 @@ section#team:before {
   }
 }
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 700px) {
   #hero-banner {
-    background: #ffffff url("../images/banner/bg1-small-screen.jpeg") no-repeat
-      100% bottom;
+    background: #ffffff url("../images/banner/bg1.jpeg") no-repeat center
+      center/cover;
   }
 }
 
