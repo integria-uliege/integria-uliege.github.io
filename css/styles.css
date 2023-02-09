@@ -411,8 +411,8 @@ ul.nostyle i {
 #hero-banner p {
   color: #07152d;
 }
-.media.service-box:hover .pull-left > i {
-}
+/* .media.service-box:hover .pull-left > i {
+} */
 #portfolio {
   padding: 140px 0;
 }
@@ -601,6 +601,7 @@ ul.nostyle i {
 .team-wrapper {
   overflow-x: hidden;
   position: relative;
+  transform: all 0.2s ease;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   -ms-transform: all 0.2s ease;
@@ -687,10 +688,10 @@ ul.nostyle i {
   font-size: 17px;
   letter-spacing: 2px;
   margin-bottom: 100px;
-  moz-border-radius: 3px;
+  -moz-border-radius: 3px;
   padding: 15px 70px;
   transition: all 0.5s ease;
-  webkit-border-radius: 3px;
+  -webkit-border-radius: 3px;
 }
 .download-btn:hover,
 .download-btn:focus {
@@ -979,9 +980,9 @@ section#team:before {
   /* Change top padding */
   padding: 120px 0 10px;
 }
-#contact-us h1,
+/* #contact-us h1,
 #contact-us h2 {
-}
+} */
 /*Contact*/
 .contact-info {
   /* padding: 60px 0; */
