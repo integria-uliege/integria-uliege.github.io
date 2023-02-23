@@ -43,12 +43,22 @@ h6 {
 }
 
 .logo-img {
-  height: 125px;
+  width: 150px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .logo-img {
-    height: 100px;
+    width: 100px;
+  }
+}
+
+.logo-img-long {
+  width: 290px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .logo-img-long {
+    width: 194px;
   }
 }
 
