@@ -53,13 +53,27 @@ h6 {
 }
 
 .logo-img-long {
-  margin-top: 25px;
   width: 290px;
+  margin: 10px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .logo-img-long {
     width: 194px;
+  }
+}
+
+.support-row {
+  text-align: center;
+}
+
+@media only screen and (min-width: 991px) {
+  .support-row {
+    text-align: center;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
   }
 }
 
