@@ -797,6 +797,11 @@ section#team:before {
   color: #4f4f4f;
 }
 
+.team-job {
+  font-family: Roboto;
+  font-size: 11.5px;
+}
+
 /* End change about to team */
 
 /*Team*/
